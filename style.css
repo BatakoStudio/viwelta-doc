@@ -1,0 +1,19 @@
+html { color-scheme: light dark; }
+body {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font: 1rem/1.75 system-ui, sans-serif;
+}
+nav { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; }
+main { margin-block: 2.5rem; }
+h1, h2 { line-height: 1.35; }
+h2 { margin-top: 2rem; font-size: 1.25rem; }
+li { margin-block: .3rem; }
+.button {
+    display: inline-block;
+    padding: .6rem 1rem;
+    border-radius: .5rem;
+    background: #193e86;
+    color: #fff;
+}
